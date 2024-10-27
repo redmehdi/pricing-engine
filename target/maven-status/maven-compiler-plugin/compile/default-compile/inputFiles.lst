@@ -1,7 +1,0 @@
-/home/redouane/workstation/pricing_core/src/main/java/eu/red1/pricing/pricingapp/PricingApplication.java
-/home/redouane/workstation/pricing_core/src/main/java/eu/red1/pricing/pricingapp/application/port/out/PriceRepositoryPort.java
-/home/redouane/workstation/pricing_core/src/main/java/eu/red1/pricing/pricingapp/application/port/in/GetPriceUseCase.java
-/home/redouane/workstation/pricing_core/src/main/java/eu/red1/pricing/pricingapp/adapter/in/rest/PricingController.java
-/home/redouane/workstation/pricing_core/src/main/java/eu/red1/pricing/pricingapp/application/service/GetPriceService.java
-/home/redouane/workstation/pricing_core/src/main/java/eu/red1/pricing/pricingapp/adapter/out/persistence/PriceRepository.java
-/home/redouane/workstation/pricing_core/src/main/java/eu/red1/pricing/pricingapp/domain/Price.java
