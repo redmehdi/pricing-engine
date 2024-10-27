@@ -1,0 +1,7 @@
+eu/red1/pricing/pricingapp/adapter/out/persistence/PriceRepository.class
+eu/red1/pricing/pricingapp/domain/Price.class
+eu/red1/pricing/pricingapp/application/service/GetPriceService.class
+eu/red1/pricing/pricingapp/application/port/out/PriceRepositoryPort.class
+eu/red1/pricing/pricingapp/PricingApplication.class
+eu/red1/pricing/pricingapp/adapter/in/rest/PricingController.class
+eu/red1/pricing/pricingapp/application/port/in/GetPriceUseCase.class
