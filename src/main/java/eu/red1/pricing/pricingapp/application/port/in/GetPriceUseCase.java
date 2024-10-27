@@ -6,5 +6,5 @@ import java.util.List;
 import java.util.Optional;
 
 public interface GetPriceUseCase {
-    Optional<PriceDTO> getPrice(final LocalDateTime applicationDate, int productId, final Long brandId);
+    Optional<PriceDTO> getPrice(final LocalDateTime applicationDate, final Long productId, final Long brandId);
 }
