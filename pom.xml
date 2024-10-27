@@ -48,6 +48,13 @@
       <scope>provided</scope>
     </dependency>
 
+    <!-- Jakarta Validation (for @NotNull, @Size, etc.) -->
+    <dependency>
+      <groupId>jakarta.validation</groupId>
+      <artifactId>jakarta.validation-api</artifactId>
+      <version>3.0.2</version>
+    </dependency>
+
     <!-- Spring Boot Testing Starter -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
