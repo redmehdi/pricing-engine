@@ -33,28 +33,21 @@ Getting Started
 
 1.  Clone the repository:
 
-    bash
-
-    Copy code
-
-    `git clone https://github.com/yourusername/pricing-engine.git
-    cd pricing-engine`
+    ```bash
+    git clone https://github.com/yourusername/pricing-engine.git
+    ```
 
 ### Build the Application
 
-bash
-
-Copy code
-
-`mvn clean install`
+ ```bash
+ mvn clean install
+```
 
 ### Run the Application
 
-bash
-
-Copy code
-
-`mvn spring-boot:run`
+ ```bash 
+ mvn spring-boot:run
+```
 
 The application will run on `http://localhost:8080`. You can test the endpoints via tools like Postman or using curl commands (see the [Endpoints](#endpoints) section).
 
@@ -111,25 +104,22 @@ Retrieve pricing information based on brand ID, product ID, and application date
 
 **Example Request**:
 
-bash
-
-Copy code
-
-`curl -X GET "http://localhost:8080/api/price"\
+ ```bash
+curl -X GET "http://localhost:8080/api/price"\
 -H "Content-Type: application/json"\
 -d '{
 "applicationDate": "2020-06-14T10:00:00",
 "productId": 35455,
 "brandId": 1
-}'`
+}'
+```
 
 **Example Response**:
 
 json
 
-Copy code
-
-`{
+ ```bash
+{
 "startDate": "2020-06-14T00:00:00",
 "endDate": "2020-12-31T23:59:59",
 "priceList": 1,
@@ -138,7 +128,8 @@ Copy code
 "currency": "EUR",
 "brandId": 1,
 "productId": 35455
-}`
+}
+```
 
 * * * * *
 
@@ -170,11 +161,9 @@ The application includes both JUnit and Mockito tests to ensure functionality:
 
 Run tests using:
 
-bash
-
-Copy code
-
-`mvn test`
+ ```bash
+ mvn test
+```
 
 * * * * *
 
