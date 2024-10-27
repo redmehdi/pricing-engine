@@ -15,7 +15,7 @@ public interface PriceRepository extends JpaRepository<Price, Long>, PriceReposi
       + "pri.product.id = :productId AND :applicationDate BETWEEN pri.startDate AND pri.endDate)")
   Optional<Price> findHighestPriorityPrice(
       @Param("brandId") Long brandId,
-      @Param("productId") int productId,
+      @Param("productId") Long productId,
       @Param("applicationDate") LocalDateTime applicationDate
   );
 }

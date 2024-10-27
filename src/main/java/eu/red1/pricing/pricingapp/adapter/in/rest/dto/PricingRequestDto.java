@@ -11,7 +11,7 @@ public record PricingRequestDto(
     LocalDateTime applicationDate,
 
     @Positive(message = "Product ID must be a positive number")
-    int productId,
+    Long productId,
 
     @NotNull(message = "Brand ID is required")
     @Positive(message = "Brand ID must be a positive number")

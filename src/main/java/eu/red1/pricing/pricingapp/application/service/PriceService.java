@@ -18,7 +18,7 @@ public class PriceService implements GetPriceUseCase {
   }
 
   @Override
-  public Optional<PriceDTO> getPrice(LocalDateTime applicationDate, int productId, Long brandId) {
+  public Optional<PriceDTO> getPrice(LocalDateTime applicationDate, Long productId, Long brandId) {
     // Perform the query to retrieve the Price entity and map to PriceResponseDto
     return priceRepositoryPort.findHighestPriorityPrice(brandId, productId, applicationDate)
         .map(PriceMapper::toDTO);

@@ -7,6 +7,6 @@ import java.util.Optional;
 
 public interface PriceRepositoryPort {
 
-  Optional<Price> findHighestPriorityPrice(Long brandId, int productId,
+  Optional<Price> findHighestPriorityPrice(Long brandId, Long productId,
       LocalDateTime applicationDate);
 }
